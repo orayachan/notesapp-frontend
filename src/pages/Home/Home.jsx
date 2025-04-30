@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center bg-fuchsia-50 px-4">
@@ -9,18 +11,18 @@ const Home = () => {
           Organize your thoughts and ideas in one place.
         </p>
         <div className="space-x-4">
-          <a
-            href="/login"
+          <Link
+            to="/login"
             className="px-6 py-2 bg-fuchsia-800 text-white rounded hover:bg-fuchsia-900 transition"
           >
             Log In
-          </a>
-          <a
-            href="/signup"
+          </Link>
+          <Link
+            to="/signup"
             className="px-6 py-2 border border-fuchsia-700 text-fuchsia-700 rounded hover:bg-fuchsia-100 transition"
           >
             Sign Up
-          </a>
+          </Link>
         </div>
       </div>
     </section>
