@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className="bg-white flex items-center justify-between px-6 py-2 drop-shadow-2xl">
       <div className="flex ">
         <img src={Ducky} className="w-8 h-8" />
-        <h1 className="text-fuchsia-950 text-xl font-semibold p-2">
+        <h1 className="text-fuchsia-900 hover:text-fuchsia-950 text-xl font-bold p-2">
           Ducky Notes
         </h1>
       </div>
